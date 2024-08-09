@@ -1,0 +1,141 @@
+
+body {
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center; 
+    min-height: 100vh; 
+    margin: 0; 
+    background-image: url('https://imgs.search.brave.com/jsgfz900vZA5emNjzAiNYF4HSQdeirlpCvMsKQ9jExk/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvY29tbW9ucy8x/LzE3L0FuZ2VsZXNf/VW5pdmVyc2l0eV9G/b3VuZGF0aW9uXyhN/YWNBcnRodXJfSGln/aHdheSxfQW5nZWxl/cyxfUGFtcGFuZ2E7/XzA1LTI3LTIwMjMp/LmpwZw'); 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center; 
+    font-family: sans-serif;
+}
+
+.overlay {
+    background-color: rgba(255, 255, 255, 0.5); 
+    height: 100%; 
+    width: 100%; 
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    z-index: 1; 
+}
+
+.card-reg {
+    position: relative; 
+    z-index: 2; 
+    color: black; 
+    background-color:  rgb(255, 255, 255);
+    padding: 2rem;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 42rem;
+    
+ 
+}
+h1{
+    text-align: center;
+}
+.reg-form{
+    margin-bottom: 1rem;
+}
+.firstandmiddle{
+    display: flex;
+    margin-bottom: 20px;
+}
+.middle-name{
+    margin-left: 6rem;
+}
+#first_name_tb{
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 15rem;
+    
+}
+#middle_name_tb{
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+}
+#last_name_tb,
+#DOB,
+#email_tb,
+#program_slct
+{
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+
+
+
+label{
+    display: block;
+    margin-bottom: 0.5rem;
+}
+#placeholder_prog{
+    text-align: center;
+}
+#male-lb,
+#female-lb{
+    display: inline;
+}
+
+#country_code_tb,
+#phonenumber_tb{
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+fieldset{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border-color: rgba(128, 128, 128, 0.5);
+    border-width: 1px;
+}
+textarea{
+    width: 75%;
+    height: 100px;
+}
+#submit-btn{
+    padding: 5px;
+    background-color: white;
+    border: 2px solid blue;
+    border-radius: 10px;
+    width: 5rem;
+    font-size: 16px;
+    color: blue;
+    margin-top: 20px;
+}
+#submit-btn:hover{
+    color: white;
+    background-color: blue;
+    cursor: pointer;
+}
+#reset-btn{
+    padding: 5px;
+    background-color: white;
+    border: 2px solid blue;
+    border-radius: 10px;
+    width: 5rem;
+    font-size: 16px;
+    color: blue;
+    margin-top: 20px;
+}
+#reset-btn:hover{
+    color: white;
+    background-color: blue;
+    cursor: pointer;
+}
+
+img{
+    height: 70px;
+    width: auto;
+}
